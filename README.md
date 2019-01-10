@@ -11,15 +11,15 @@
 
 
 ## Screenshots
-<img src="https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.25.06.png">
 
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/list.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.25.18.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/datail1.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.25.26.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/detail2.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.27.46.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/delete.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.28.07.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/update.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202018-12-31%2003.54.35.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/search.png)
