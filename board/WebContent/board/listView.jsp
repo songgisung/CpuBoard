@@ -25,6 +25,7 @@
 	 margin: auto;
 	 text-align: center;	
 	}
+	
 </style>
 
 </head>
@@ -115,6 +116,20 @@
 	<input type="button" value="&gt;&gt;" onclick="location.href='?page=${plist.endPage +1 }'">
 </c:if>
 </div>
+<DIV class='aside_menu' style='margin-right: auto;'>
+  <FORM name='frm' method='GET' action='search.do'>
+   <ASIDE style='float: right;'>
+      <SELECT name='search'> 
+        <OPTION value='name'>name</OPTION>
+        <OPTION value='title'>subject</OPTION>
+        <OPTION value='content'>content</OPTION>
+      </SELECT>
+      <input type='text' name='word' value='' placeholder="文字のみ使用可能です.">
+      <button type='submit'>検索</button>    
+    </ASIDE> 
+  </FORM>
+  <DIV class='menu_line' style='clear: both;'></DIV>
+</DIV>
 
 
 

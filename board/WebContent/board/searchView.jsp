@@ -14,7 +14,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>My Board List</title>
+<title>検索結果</title>
 <style type="text/css">
 	table,td{
 	 border: 1px solid #ccc;
@@ -28,7 +28,7 @@
 </head>
 <body>
 	<!-- list.jsp 에서 애트리뷰터에 데이터를 저장해서 listView.jsp로 -->
-	<h3 style="text-align:center">My Board(ver 0.1)</h3><p>
+	<h3 style="text-align:center">検索結果</h3><p>
 	<div style="text-align:right; width:700px; margin:auto;">
 	合 ${plist.totalCount} 回 文/
 	現在 ${plist.currentPage}  ページ/

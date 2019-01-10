@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>My Board 削除</title>
+<title>削除</title>
 </head>
 <style>
 		table,td,th{
@@ -22,7 +22,7 @@
 	}
 </style>
 <body>
-<h3 style="text-align: center;">My Board(ver 1.0)</h3>
+<h3 style="text-align: center;">削除</h3>
 <form action="delete.do" method="post">
 <input type="hidden" name="idx" value=${vo.idx }>
 <input type="hidden" name="page" value=${page }>
