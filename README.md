@@ -17,7 +17,7 @@
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/list.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/datail1.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/datail.png)
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/dateil2.png)
 
