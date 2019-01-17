@@ -10,9 +10,6 @@
 * サーバーはtomcatを使用しています。
 * データベース MYSQLを使用しています。
 
-## Getting Started
-
-
 ## Screenshots
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/list.png)
