@@ -1,6 +1,6 @@
 # CpuBoard
-* Jspで作られたCPU専用掲示板です。
 * Jsp로 만들어진 CPU 전용 게시판입니다.
+* Jspで作られたCPU専用掲示板です。
 
 ## Features
 
