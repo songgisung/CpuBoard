@@ -14,16 +14,9 @@
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/list.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/datail.png)
-
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/dateil2.png)
+![test](https://github.com/songgisung/CpuBoard/blob/master/pic/detail.png)
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/insert.png)
 
 ![test](https://github.com/songgisung/CpuBoard/blob/master/pic/delete.png)
 
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/update.png)
-
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/search1.png)
-
-![test](https://github.com/songgisung/CpuBoard/blob/master/pic/search2.png)
