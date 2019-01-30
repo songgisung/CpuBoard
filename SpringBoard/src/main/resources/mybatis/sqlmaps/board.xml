@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.board.myapp.dao.BoardDao">
+	<!--Board Insert  -->
+    <insert id="boardCreate" parameterType="java.util.HashMap" >
+        insert 
+        into 
+        cpuBoard(
+        name,
+        password,
+        subject,
+        content,
+        enterprise,
+        cpuname,
+        socket,
+        speed,
+        core,
+        thread,
+        graphis,
+        filePath,
+        fileName1,
+        fileName2
+        ) values (
+        #{name},
+        #{password},
+        #{subject},
+        #{content},
+        #{enterprise},
+        #{cpuname},
+        #{socket},
+        #{speed},
+        #{core},
+        #{thread},
+        #{graphis},
+        #{filePath},
+        #{fileName1},
+        #{fileName2})
+    </insert>
+    <!--Board Update  -->
+    <update id="boardUpdate" parameterType="java.util.HashMap">
+        update cpuBoard set subject = #{subject},content = #{content},enterprise = #{enterprise},cpuname = #{cpuname},socket = #{socket},speed = #{speed},core = #{core},thread = #{thread},graphis = #{graphis},filePath = #{filePath},fileName1 = #{fileName1},fileName2 = #{fileName2} where idx = #{idx}
+    </update>
+    <!--board Count  -->
+    <select id="selectContentCnt" resultType="int" parameterType="java.util.HashMap">
+        select
+            count(*)
+        from
+            cpuBoard
+    </select>
+    <select id="selectContent" resultType="com.board.myapp.vo.Board" parameterType="java.util.HashMap">
+        select
+            idx,
+            name,
+            password,
+            subject,
+            content,
+            readCount,
+            wdate,
+            enterprise,
+            cpuname,
+            socket,
+            speed,
+            core,
+            thread,
+            graphis,
+            filePath,
+            fileName1,
+            fileName2
+        from
+            cpuBoard
+        order by idx desc
+         limit #{start}, #{end} 
+    </select>
+    <!--board detail  -->
+    <select id="selectContentView" resultType="com.board.myapp.vo.Board" parameterType="java.util.HashMap">
+       select
+            idx,
+            name,
+            password,
+            subject,
+            content,
+            readCount,
+            wdate,
+            enterprise,
+            cpuname,
+            socket,
+            speed,
+            core,
+            thread,
+            graphis,
+            filePath,
+            fileName1,
+            fileName2
+        from
+            cpuBoard
+        where 
+        	idx = #{idx}
+    </select>    
+  	<!--delete  -->
+    <delete id="boardDelete" parameterType="java.util.HashMap">
+        delete
+        from
+           cpuBoard
+        where
+            idx = #{idx}
+            and password = #{password}
+    </delete>
+    <!--search  -->
+    <select id="search" resultType="com.board.myapp.vo.Board" parameterType="java.util.HashMap">
+    	select 
+    		idx,
+            name,
+            password,
+            subject,
+            content,
+            readCount,
+            wdate,
+            enterprise,
+            cpuname,
+            socket,
+            speed,
+            core,
+            thread,
+            graphis,
+            filePath,
+            fileName1,
+            fileName2
+         from cpuBoard
+         <include refid="search_tag"></include> 
+         order by idx desc
+    </select>
+    <sql id="search_tag">where name like '%#{word}%'</sql>      
+</mapper>
+ 
