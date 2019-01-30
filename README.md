@@ -1,6 +1,7 @@
 # Cpu在庫リスト
 
-* Jspで作られたCPU専用掲示板です。
+* Servletで作られたCPU専用掲示板です。
+* Springで作られたCPU専用掲示板です。
 
 ## Features
 
@@ -8,6 +9,7 @@
 * 作成を利用してCPUに関する情報をもっと詳しく作成できます。
 * サーバーはtomcatを使用しています。
 * データベース MYSQLを使用しています。
+* Springはmybatisを使用しています。
 
 
 ## Screenshots
